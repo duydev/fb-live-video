@@ -34,7 +34,8 @@
         alert('dialog canceled');
         return;
       }
-      alert('stream url:' + response.secure_stream_url);
+      alert("Kênh đã được tạo. Vui lòng chọn hiển thị Popup nếu trình duyệt có thông báo.");
+      //alert('stream url:' + response.secure_stream_url);
       FB.ui({
         display: 'popup',
         method: 'live_broadcast',
