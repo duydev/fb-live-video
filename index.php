@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Live Stream To Facebook</title>
+  <title>Phát Trực Tiếp Lên Facebook</title>
 </head>
 <body>
   <script>
@@ -22,7 +22,7 @@
        fjs.parentNode.insertBefore(js, fjs);
      }(document, 'script', 'facebook-jssdk'));
   </script>
-  <button id="liveButton">Create Live Stream To Facebook</button>
+  <button id="liveButton">Tạo kênh phát Trực Tiếp trên Facebook</button>
   <script>
   document.getElementById('liveButton').onclick = function() {
     FB.ui({
